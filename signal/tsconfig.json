@@ -1,0 +1,13 @@
+{
+  "extends": "@react-native/typescript-config/tsconfig.json",
+
+  "compilerOptions": {
+    // other options...
+    "jsx": "react-native",
+    "module": "Node16",
+    "target": "esnext",
+    "moduleResolution": "Node16",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true
+  }
+}
